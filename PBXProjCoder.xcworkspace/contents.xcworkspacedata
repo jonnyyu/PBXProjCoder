@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:CoreParse/CoreParse.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PBXCoder/PBXCoder.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CoreParseExercise/CoreParseExercise.xcodeproj">
+   </FileRef>
+</Workspace>

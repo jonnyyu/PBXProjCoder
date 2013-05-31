@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'CoreParseExercise' target in the 'CoreParseExercise' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <CoreParse/CoreParse.h>
+#endif
