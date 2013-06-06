@@ -16,8 +16,14 @@
 		B947C2451758C519004F5EAC /* PBXTokeniser.h in Headers */ = {isa = PBXBuildFile; fileRef = B947C2431758C519004F5EAC /* PBXTokeniser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B947C2461758C519004F5EAC /* PBXTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = B947C2441758C519004F5EAC /* PBXTokeniser.m */; };
 		B947C2491758C694004F5EAC /* PBXTokeniserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B947C2481758C694004F5EAC /* PBXTokeniserTests.m */; };
-		B947C24D1758CABE004F5EAC /* NTDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = B947C24B1758CABE004F5EAC /* NTDocument.h */; };
+		B947C24D1758CABE004F5EAC /* NTDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = B947C24B1758CABE004F5EAC /* NTDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B947C24E1758CABE004F5EAC /* NTDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = B947C24C1758CABE004F5EAC /* NTDocument.m */; };
+		B947C2551758FA4B004F5EAC /* NTItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B947C2531758FA4B004F5EAC /* NTItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B947C2561758FA4B004F5EAC /* NTItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B947C2541758FA4B004F5EAC /* NTItem.m */; };
+		B947C259175C3BAC004F5EAC /* NTArray.h in Headers */ = {isa = PBXBuildFile; fileRef = B947C257175C3BAC004F5EAC /* NTArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B947C25A175C3BAC004F5EAC /* NTArray.m in Sources */ = {isa = PBXBuildFile; fileRef = B947C258175C3BAC004F5EAC /* NTArray.m */; };
+		B947C25D175CA685004F5EAC /* NTGuid.h in Headers */ = {isa = PBXBuildFile; fileRef = B947C25B175CA685004F5EAC /* NTGuid.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B947C25E175CA685004F5EAC /* NTGuid.m in Sources */ = {isa = PBXBuildFile; fileRef = B947C25C175CA685004F5EAC /* NTGuid.m */; };
 		B94B8E1C175850B5007FB389 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B94B8E1B175850B5007FB389 /* Cocoa.framework */; };
 		B94B8E26175850B5007FB389 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B94B8E24175850B5007FB389 /* InfoPlist.strings */; };
 		B94B8E2A175850B5007FB389 /* PBXCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = B94B8E29175850B5007FB389 /* PBXCoder.m */; };
@@ -33,6 +39,14 @@
 		B94B8E561758526B007FB389 /* CoreParse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B94B8E53175851FF007FB389 /* CoreParse.framework */; };
 		B94B8E581758528B007FB389 /* CoreParse.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = B94B8E53175851FF007FB389 /* CoreParse.framework */; };
 		B94B8E5917585382007FB389 /* PBXCoder.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = B94B8E18175850B5007FB389 /* PBXCoder.framework */; };
+		B9D5EB8A175F3AFD00062B81 /* NTGuidItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B9D5EB88175F3AFD00062B81 /* NTGuidItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9D5EB8B175F3AFD00062B81 /* NTGuidItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D5EB89175F3AFD00062B81 /* NTGuidItem.m */; };
+		B9D5EB8E1760792300062B81 /* NTSection.h in Headers */ = {isa = PBXBuildFile; fileRef = B9D5EB8C1760792300062B81 /* NTSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9D5EB8F1760792300062B81 /* NTSection.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D5EB8D1760792300062B81 /* NTSection.m */; };
+		B9D5EB9217608F1500062B81 /* NTGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = B9D5EB9017608F1500062B81 /* NTGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9D5EB9317608F1500062B81 /* NTGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D5EB9117608F1500062B81 /* NTGroup.m */; };
+		B9D5EB9617608F9700062B81 /* NTMetaItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B9D5EB9417608F9700062B81 /* NTMetaItem.h */; };
+		B9D5EB9717608F9700062B81 /* NTMetaItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D5EB9517608F9700062B81 /* NTMetaItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +87,12 @@
 		B947C2481758C694004F5EAC /* PBXTokeniserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBXTokeniserTests.m; sourceTree = "<group>"; };
 		B947C24B1758CABE004F5EAC /* NTDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTDocument.h; sourceTree = "<group>"; };
 		B947C24C1758CABE004F5EAC /* NTDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTDocument.m; sourceTree = "<group>"; };
+		B947C2531758FA4B004F5EAC /* NTItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTItem.h; sourceTree = "<group>"; };
+		B947C2541758FA4B004F5EAC /* NTItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTItem.m; sourceTree = "<group>"; };
+		B947C257175C3BAC004F5EAC /* NTArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTArray.h; sourceTree = "<group>"; };
+		B947C258175C3BAC004F5EAC /* NTArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTArray.m; sourceTree = "<group>"; };
+		B947C25B175CA685004F5EAC /* NTGuid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTGuid.h; sourceTree = "<group>"; };
+		B947C25C175CA685004F5EAC /* NTGuid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTGuid.m; sourceTree = "<group>"; };
 		B94B8E18175850B5007FB389 /* PBXCoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PBXCoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B94B8E1B175850B5007FB389 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		B94B8E1E175850B5007FB389 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -94,6 +114,14 @@
 		B94B8E4F175851E4007FB389 /* PBXParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBXParser.h; sourceTree = "<group>"; };
 		B94B8E50175851E4007FB389 /* PBXParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBXParser.m; sourceTree = "<group>"; };
 		B94B8E53175851FF007FB389 /* CoreParse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreParse.framework; path = ../../../CoreParse/build/Debug/CoreParse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9D5EB88175F3AFD00062B81 /* NTGuidItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTGuidItem.h; sourceTree = "<group>"; };
+		B9D5EB89175F3AFD00062B81 /* NTGuidItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTGuidItem.m; sourceTree = "<group>"; };
+		B9D5EB8C1760792300062B81 /* NTSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTSection.h; sourceTree = "<group>"; };
+		B9D5EB8D1760792300062B81 /* NTSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTSection.m; sourceTree = "<group>"; };
+		B9D5EB9017608F1500062B81 /* NTGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTGroup.h; sourceTree = "<group>"; };
+		B9D5EB9117608F1500062B81 /* NTGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTGroup.m; sourceTree = "<group>"; };
+		B9D5EB9417608F9700062B81 /* NTMetaItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTMetaItem.h; sourceTree = "<group>"; };
+		B9D5EB9517608F9700062B81 /* NTMetaItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTMetaItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +168,20 @@
 			children = (
 				B947C24B1758CABE004F5EAC /* NTDocument.h */,
 				B947C24C1758CABE004F5EAC /* NTDocument.m */,
+				B947C2531758FA4B004F5EAC /* NTItem.h */,
+				B947C2541758FA4B004F5EAC /* NTItem.m */,
+				B947C257175C3BAC004F5EAC /* NTArray.h */,
+				B947C258175C3BAC004F5EAC /* NTArray.m */,
+				B947C25B175CA685004F5EAC /* NTGuid.h */,
+				B947C25C175CA685004F5EAC /* NTGuid.m */,
+				B9D5EB88175F3AFD00062B81 /* NTGuidItem.h */,
+				B9D5EB89175F3AFD00062B81 /* NTGuidItem.m */,
+				B9D5EB8C1760792300062B81 /* NTSection.h */,
+				B9D5EB8D1760792300062B81 /* NTSection.m */,
+				B9D5EB9017608F1500062B81 /* NTGroup.h */,
+				B9D5EB9117608F1500062B81 /* NTGroup.m */,
+				B9D5EB9417608F9700062B81 /* NTMetaItem.h */,
+				B9D5EB9517608F9700062B81 /* NTMetaItem.m */,
 			);
 			name = NonTerminals;
 			sourceTree = "<group>";
@@ -238,12 +280,19 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9D5EB9217608F1500062B81 /* NTGroup.h in Headers */,
+				B9D5EB8E1760792300062B81 /* NTSection.h in Headers */,
+				B947C25D175CA685004F5EAC /* NTGuid.h in Headers */,
+				B947C259175C3BAC004F5EAC /* NTArray.h in Headers */,
+				B947C2551758FA4B004F5EAC /* NTItem.h in Headers */,
+				B947C24D1758CABE004F5EAC /* NTDocument.h in Headers */,
 				B947C2411758955B004F5EAC /* PBXPathRecogniser.h in Headers */,
 				B947C2451758C519004F5EAC /* PBXTokeniser.h in Headers */,
 				B947C23417588B71004F5EAC /* PBXGuidToken.h in Headers */,
+				B9D5EB8A175F3AFD00062B81 /* NTGuidItem.h in Headers */,
 				B947C23817588BCE004F5EAC /* PBXGuidRecogniser.h in Headers */,
 				B94B8E51175851E4007FB389 /* PBXParser.h in Headers */,
-				B947C24D1758CABE004F5EAC /* NTDocument.h in Headers */,
+				B9D5EB9617608F9700062B81 /* NTMetaItem.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +411,13 @@
 				B947C2421758955B004F5EAC /* PBXPathRecogniser.m in Sources */,
 				B947C2461758C519004F5EAC /* PBXTokeniser.m in Sources */,
 				B947C24E1758CABE004F5EAC /* NTDocument.m in Sources */,
+				B947C2561758FA4B004F5EAC /* NTItem.m in Sources */,
+				B947C25A175C3BAC004F5EAC /* NTArray.m in Sources */,
+				B947C25E175CA685004F5EAC /* NTGuid.m in Sources */,
+				B9D5EB8B175F3AFD00062B81 /* NTGuidItem.m in Sources */,
+				B9D5EB8F1760792300062B81 /* NTSection.m in Sources */,
+				B9D5EB9317608F1500062B81 /* NTGroup.m in Sources */,
+				B9D5EB9717608F9700062B81 /* NTMetaItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

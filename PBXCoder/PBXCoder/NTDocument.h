@@ -7,7 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <CoreParse/CoreParse.h>
+#import "NTGroup.h"
 
-@interface NTDocument : NSObject
+@interface NTDocument : NTGroup
+
+- (id)initWithItems:(NSArray*)items;
 
 @end
