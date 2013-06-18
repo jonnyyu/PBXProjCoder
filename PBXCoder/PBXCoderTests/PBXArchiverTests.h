@@ -6,8 +6,11 @@
 //  Copyright (c) 2013 Jonny Yu. All rights reserved.
 //
 
-#import <SenTestingKit/SenTestingKit.h>
+#import <XCTest/XCTest.h>
 
-@interface PBXCoderTests : SenTestCase
+@class PBXUnarchiver;
+@interface PBXArchiverTests : XCTestCase {
+    PBXUnarchiver *ua;
+}
 
 @end

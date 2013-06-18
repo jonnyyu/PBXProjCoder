@@ -43,6 +43,11 @@
     return self;
 }
 
+-(NSString *)name
+{
+    return [[self guid] guid];
+}
+
 -(NSUInteger)hash
 {
     return [[self guid] hash];

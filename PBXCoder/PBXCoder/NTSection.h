@@ -18,4 +18,15 @@
 + (id)startComment:(NSString*)startComment endComment:(NSString*)endComment items:(NSArray*)items;
 - (id)initWithStartComment:(NSString*)startComment endComment:(NSString*)endComment items:(NSArray*)items;
 
+- (BOOL)isSection;
+
+- (id)itemWithName:(NSString*)name;
+
+@end
+
+
+@interface NSObject (NTSection)
+
+- (BOOL)isSection;
+
 @end

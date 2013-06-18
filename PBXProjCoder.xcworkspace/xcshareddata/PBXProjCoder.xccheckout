@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CEBDA10F-EB93-4460-A7D7-A70F6BD18DF3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PBXProjCoder</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5BEF5E33-8774-4FBD-B905-8C8E507ECE75</key>
+		<string>https://github.com/beelsebob/CoreParse.git</string>
+		<key>794573EC-231A-48DF-B98F-551A3557E8E9</key>
+		<string>https://github.com/beelsebob/CoreParse.git</string>
+		<key>9F25189B-A9F9-4808-844A-49D52E254ACF</key>
+		<string>https://github.com/jonnyyu/PBXProjCoder.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PBXProjCoder.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5BEF5E33-8774-4FBD-B905-8C8E507ECE75</key>
+		<string>../../CoreParse</string>
+		<key>794573EC-231A-48DF-B98F-551A3557E8E9</key>
+		<string>../CoreParse</string>
+		<key>9F25189B-A9F9-4808-844A-49D52E254ACF</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jonnyyu/PBXProjCoder.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9F25189B-A9F9-4808-844A-49D52E254ACF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>794573EC-231A-48DF-B98F-551A3557E8E9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CoreParse</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9F25189B-A9F9-4808-844A-49D52E254ACF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PBXProjCoder</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5BEF5E33-8774-4FBD-B905-8C8E507ECE75</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CoreParse</string>
+		</dict>
+	</array>
+</dict>
+</plist>

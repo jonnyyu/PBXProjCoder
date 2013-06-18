@@ -8,13 +8,12 @@
 
 #import <Foundation/Foundation.h>
 #import <CoreParse/CoreParse.h>
-
+#import "NTItem.h"
 @class NTGuid;
 
-@interface NTGuidItem : NSObject <CPParseResult>
+@interface NTGuidItem : NTItem <CPParseResult>
 
 @property (readwrite, retain, nonatomic) NTGuid *guid;
-@property (readwrite, retain, nonatomic) id      value;
 
 + (id)itemWithGuid:(NTGuid*)guid andValue:(id)value;
 - (id)initWithGuid:(NTGuid*)guid andValue:(id)value;

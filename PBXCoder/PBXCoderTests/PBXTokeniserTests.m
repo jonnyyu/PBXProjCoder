@@ -94,7 +94,7 @@
                         [PBXTokens docHeader],
                         [CPEOFToken eof]]];
 
-    STAssertEqualObjects(a, e, @"Failed to tokenise DocHeader correctly", nil);
+    XCTAssertEqualObjects(a, e, @"Failed to tokenise DocHeader correctly", nil);
 }
 
 - (void)testCanTokeniseEmptyDoc
@@ -106,7 +106,7 @@
                         [PBXTokens rightBrace],
                         [CPEOFToken eof]]];
 
-    STAssertEqualObjects(a, e, @"Failed to tokenise an empty document", nil);
+    XCTAssertEqualObjects(a, e, @"Failed to tokenise an empty document", nil);
 }
 
 - (void)testCanTokeniseAssignAnNumber
@@ -119,7 +119,7 @@
                         [PBXTokens end],
                         [CPEOFToken eof]]];
 
-    STAssertEqualObjects(a, e, @"Failed to tokenise assign number", nil);
+    XCTAssertEqualObjects(a, e, @"Failed to tokenise assign number", nil);
 }
 
 - (void)testCanTokeniseComment
@@ -129,7 +129,7 @@
                         [PBXTokens comment:@" This is a comment "],
                         [CPEOFToken eof]]];
 
-    STAssertEqualObjects(a, e, @"Failed to tokenise comment", nil);
+    XCTAssertEqualObjects(a, e, @"Failed to tokenise comment", nil);
 }
 
 - (void)testCanTokeniseAssignAnQuotedString
@@ -142,7 +142,7 @@
                         [PBXTokens end],
                         [CPEOFToken eof]]];
 
-    STAssertEqualObjects(a, e, @"Failed to tokenise string assignment", nil);
+    XCTAssertEqualObjects(a, e, @"Failed to tokenise string assignment", nil);
 }
 
 - (void)testCanTokeniseEmptyQuotedString
@@ -155,7 +155,7 @@
                         [PBXTokens end],
                         [CPEOFToken eof]]];
 
-    STAssertEqualObjects(a, e, @"Failed to tokenise empty quoted string", nil);
+    XCTAssertEqualObjects(a, e, @"Failed to tokenise empty quoted string", nil);
 }
 
 - (void)testCanTokeniseGuid
@@ -169,7 +169,7 @@
                         [PBXTokens end],
                         [CPEOFToken eof]]];
 
-    STAssertEqualObjects(a, e, @"Failed to tokenise Guid assignment", nil);
+    XCTAssertEqualObjects(a, e, @"Failed to tokenise Guid assignment", nil);
 }
 
 - (void)testCanTokenisePath
@@ -182,7 +182,7 @@
                         [PBXTokens end],
                         [CPEOFToken eof]]];
 
-    STAssertEqualObjects(a, e, @"Failed to tokenise path", nil);
+    XCTAssertEqualObjects(a, e, @"Failed to tokenise path", nil);
 }
 
 - (void)testCanTokenisePathWithEnvironmentVariables
@@ -195,7 +195,7 @@
                         [PBXTokens end],
                         [CPEOFToken eof]]];
 
-    STAssertEqualObjects(a, e, @"Failed to tokenise path", nil);
+    XCTAssertEqualObjects(a, e, @"Failed to tokenise path", nil);
 }
 
 - (void)testCanTokeniseArray
@@ -212,7 +212,7 @@
                         [PBXTokens end],
                         [CPEOFToken eof]]];
 
-    STAssertEqualObjects(a, e, @"Failed to tokenise Array", nil);
+    XCTAssertEqualObjects(a, e, @"Failed to tokenise Array", nil);
 }
 
 @end

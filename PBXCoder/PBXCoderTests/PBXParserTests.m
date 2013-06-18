@@ -41,7 +41,7 @@
     NTDocument *a = [parser parse:[self tokenise:@"// !$*UTF8*$!{}"]];
     NTDocument *e = [[NTDocument alloc] initWithItems:@[]];
 
-    STAssertEqualObjects(a,e,@"failed to parse empty document ", nil);
+    XCTAssertEqualObjects(a,e,@"failed to parse empty document ", nil);
 }
 
 - (void)testCanParseAssignInteger
@@ -51,7 +51,7 @@
                      [NTItem itemWithName:@"archiveVersion" andValue:[NSNumber numberWithInteger:1]]
                      ]];
 
-    STAssertEqualObjects(a, e, @"failed to parse single assign integer", nil);
+    XCTAssertEqualObjects(a, e, @"failed to parse single assign integer", nil);
 }
 
 - (void)testCanParseAssignText
@@ -60,7 +60,7 @@
     NTDocument *e = [[NTDocument alloc] initWithItems:@[
                      [NTItem itemWithName:@"isa" andValue:@"PBXAggregateTarget"]]];
 
-    STAssertEqualObjects(a, e, @"failed to parse single assign text", nil);
+    XCTAssertEqualObjects(a, e, @"failed to parse single assign text", nil);
 }
 
 - (void)testCanParseAssignQuotedText
@@ -69,7 +69,7 @@
     NTDocument *e = [[NTDocument alloc] initWithItems:@[
                      [NTItem itemWithName:@"name" andValue:@"Working Subset"]]];
 
-    STAssertEqualObjects(a, e, @"failed to parse assign quoted text", nil);
+    XCTAssertEqualObjects(a, e, @"failed to parse assign quoted text", nil);
 }
 
 - (void)testCanParseAssignGuid
@@ -78,7 +78,7 @@
     NTDocument *e = [[NTDocument alloc] initWithItems:@[
                      [NTItem itemWithName:@"containerPortal" andValue:[NTGuid guid:@"C24F41A1126C139500B13AF3" withComment:@" Components.xcodeproj "]]]];
 
-    STAssertEqualObjects(a, e, @"failed to parse assign quoted text", nil);
+    XCTAssertEqualObjects(a, e, @"failed to parse assign quoted text", nil);
 }
 
 - (void)testCanParseMultiItems
@@ -89,7 +89,7 @@
                      [NTItem itemWithName:@"objectVersion" andValue:[NSNumber numberWithInteger:45]]
                      ]];
 
-    STAssertEqualObjects(a, e, @"failed to parse single assign integer", nil);
+    XCTAssertEqualObjects(a, e, @"failed to parse single assign integer", nil);
 }
 
 - (void)testCanParseGuidArray
@@ -104,7 +104,7 @@
                                           ]]
                       ]]];
 
-    STAssertEqualObjects(a, e, @"failed to parse guid array");
+    XCTAssertEqualObjects(a, e, @"failed to parse guid array");
 }
 
 - (void)testCanParseEmptyArray
@@ -113,7 +113,7 @@
     NTDocument *e = [[NTDocument alloc] initWithItems:@[
                      [NTItem itemWithName:@"dependencies" andValue:[NTArray arrayWithItems:@[]]]]];
 
-    STAssertEqualObjects(a, e, @"failed to parse empty array");
+    XCTAssertEqualObjects(a, e, @"failed to parse empty array");
 }
 
 - (void)testCanParseNestGroup
@@ -126,7 +126,7 @@
                      [NTItem itemWithName:@"classes" andValue:g]]];
 
 
-    STAssertEqualObjects(a, e, @"failed to parse nested group");
+    XCTAssertEqualObjects(a, e, @"failed to parse nested group");
 }
 
 - (void)testCanParsePath
@@ -135,7 +135,7 @@
     NTDocument *e = [[NTDocument alloc] initWithItems:@[
                      [NTItem itemWithName:@"path" andValue:@"../../testdev/testdev.xcodeproj" ]]];
 
-    STAssertEqualObjects(a, e, @"failed to parse path");
+    XCTAssertEqualObjects(a, e, @"failed to parse path");
 }
 
 - (void)testCanParseSection
@@ -158,7 +158,7 @@
                                              items:@[
                                [NTGuidItem itemWithGuid:[NTGuid guid:@"1DCBBA3512A6F908006446DA" withComment:@" PBXTargetDependency "]
                                                andValue:[NTGroup groupWithItems:@[[NTItem itemWithName:@"name" andValue:@"ARXHarness"],]]],]],]]],]];
-    STAssertEqualObjects(a, e, @"failed to parse section");
+    XCTAssertEqualObjects(a, e, @"failed to parse section");
 }
 
 - (void)testCanParseSectionMixed
@@ -184,7 +184,7 @@ archiveVersion = 1; \
                                 [NTItem itemWithName:@"name" andValue:@"ARXHarness"]]]]]],
                        [NTItem itemWithName:@"archiveVersion" andValue:[NSNumber numberWithInteger:1]]
                      ]];
-    STAssertEqualObjects(a, e, @"failed to parse mixed section");
+    XCTAssertEqualObjects(a, e, @"failed to parse mixed section");
 }
 
 - (void)testCanParseTextArray
@@ -194,7 +194,7 @@ archiveVersion = 1; \
                      [NTItem itemWithName:@"knownRegions" andValue:[NTArray arrayWithItems:@[
                       @"English", @"Japanese", @"French", @"German"]]]]];
 
-    STAssertEqualObjects(a, e, @"failed to parse text array");
+    XCTAssertEqualObjects(a, e, @"failed to parse text array");
 }
 
 - (void)testCanParseReferenceItem
@@ -203,6 +203,6 @@ archiveVersion = 1; \
     NTDocument *e = [[NTDocument alloc] initWithItems:@[
                      [NTGuidItem itemWithGuid:[NTGuid guid:@"C26D495910F1E3D200BD5833" withComment:@" Debug "]
                                      andValue:[NTGroup groupWithItems:@[[NTItem itemWithName:@"name" andValue:@"Debug"]]]]]];
-    STAssertEqualObjects(a, e, @"failed to parse reference item");
+    XCTAssertEqualObjects(a, e, @"failed to parse reference item");
 }
 @end

@@ -7,6 +7,7 @@
 //
 
 #import "NTGroup.h"
+#import "NTItem.h"
 #import "NTMetaItem.h"
 #import "NTSection.h"
 
@@ -69,11 +70,46 @@
 
 -(NSString *)description
 {
-    NSMutableString* desc = [NSMutableString stringWithString:@"NTContent: "];
+    NSMutableString* desc = [NSMutableString stringWithString:@"NTGroup: "];
     [[self items] enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
         [desc appendFormat:@" %@,", obj];
     }];
     return desc;
 }
 
+- (id)itemWithName:(NSString*)name
+{
+    __block NTItem *item = nil;
+    [[self items] enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+        if ([obj isSection]) {
+            item = [(NTSection*)obj itemWithName:name];
+        }
+        else {
+            item = [[(NTItem*)obj name] isEqual:name] ? obj : nil;
+        }
+
+        if (item) {
+            *stop = YES;
+        }
+    }];
+    return item;
+}
+
+
+- (BOOL)isGroup
+{
+    return YES;
+}
+
 @end
+
+
+@implementation NSObject (NTGroup)
+
+-(BOOL)isGroup
+{
+    return NO;
+}
+
+@end
+

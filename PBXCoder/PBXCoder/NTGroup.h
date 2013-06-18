@@ -18,4 +18,14 @@
 
 - (id)initWithItems:(NSArray*)items;
 
+- (id)itemWithName:(NSString*)name;
+
+- (BOOL)isGroup;
+
+@end
+
+@interface NSObject (NTGroup)
+
+- (BOOL)isGroup;
+
 @end

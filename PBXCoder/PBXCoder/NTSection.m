@@ -77,4 +77,26 @@
     return NO;
 }
 
+-(BOOL)isSection
+{
+    return YES;
+}
+
+- (id)itemWithName:(NSString*)name
+{
+    [[self items] enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+    }];
+    return nil;
+}
+
+@end
+
+
+@implementation NSObject (NTSection)
+
+-(BOOL)isSection
+{
+    return NO;
+}
+
 @end

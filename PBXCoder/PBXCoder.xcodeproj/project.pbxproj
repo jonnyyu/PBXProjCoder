@@ -26,12 +26,11 @@
 		B947C25E175CA685004F5EAC /* NTGuid.m in Sources */ = {isa = PBXBuildFile; fileRef = B947C25C175CA685004F5EAC /* NTGuid.m */; };
 		B94B8E1C175850B5007FB389 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B94B8E1B175850B5007FB389 /* Cocoa.framework */; };
 		B94B8E26175850B5007FB389 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B94B8E24175850B5007FB389 /* InfoPlist.strings */; };
-		B94B8E2A175850B5007FB389 /* PBXCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = B94B8E29175850B5007FB389 /* PBXCoder.m */; };
-		B94B8E32175850B5007FB389 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B94B8E31175850B5007FB389 /* SenTestingKit.framework */; };
+		B94B8E2A175850B5007FB389 /* PBXArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = B94B8E29175850B5007FB389 /* PBXArchiver.m */; };
 		B94B8E33175850B5007FB389 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B94B8E1B175850B5007FB389 /* Cocoa.framework */; };
 		B94B8E36175850B5007FB389 /* PBXCoder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B94B8E18175850B5007FB389 /* PBXCoder.framework */; };
 		B94B8E3C175850B5007FB389 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B94B8E3A175850B5007FB389 /* InfoPlist.strings */; };
-		B94B8E3F175850B5007FB389 /* PBXCoderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B94B8E3E175850B5007FB389 /* PBXCoderTests.m */; };
+		B94B8E3F175850B5007FB389 /* PBXArchiverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B94B8E3E175850B5007FB389 /* PBXArchiverTests.m */; };
 		B94B8E4A175850E3007FB389 /* PBXParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B94B8E49175850E3007FB389 /* PBXParserTests.m */; };
 		B94B8E51175851E4007FB389 /* PBXParser.h in Headers */ = {isa = PBXBuildFile; fileRef = B94B8E4F175851E4007FB389 /* PBXParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B94B8E52175851E4007FB389 /* PBXParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B94B8E50175851E4007FB389 /* PBXParser.m */; };
@@ -39,6 +38,9 @@
 		B94B8E561758526B007FB389 /* CoreParse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B94B8E53175851FF007FB389 /* CoreParse.framework */; };
 		B94B8E581758528B007FB389 /* CoreParse.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = B94B8E53175851FF007FB389 /* CoreParse.framework */; };
 		B94B8E5917585382007FB389 /* PBXCoder.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = B94B8E18175850B5007FB389 /* PBXCoder.framework */; };
+		B982A9A71764A7AF00082E25 /* PBXTargetDependency.h in Headers */ = {isa = PBXBuildFile; fileRef = B982A9A51764A7AF00082E25 /* PBXTargetDependency.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B982A9A81764A7AF00082E25 /* PBXTargetDependency.m in Sources */ = {isa = PBXBuildFile; fileRef = B982A9A61764A7AF00082E25 /* PBXTargetDependency.m */; };
+		B9B886DD176B117B00F3A769 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B886DC176B117B00F3A769 /* XCTest.framework */; };
 		B9D5EB8A175F3AFD00062B81 /* NTGuidItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B9D5EB88175F3AFD00062B81 /* NTGuidItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9D5EB8B175F3AFD00062B81 /* NTGuidItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D5EB89175F3AFD00062B81 /* NTGuidItem.m */; };
 		B9D5EB8E1760792300062B81 /* NTSection.h in Headers */ = {isa = PBXBuildFile; fileRef = B9D5EB8C1760792300062B81 /* NTSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -47,6 +49,9 @@
 		B9D5EB9317608F1500062B81 /* NTGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D5EB9117608F1500062B81 /* NTGroup.m */; };
 		B9D5EB9617608F9700062B81 /* NTMetaItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B9D5EB9417608F9700062B81 /* NTMetaItem.h */; };
 		B9D5EB9717608F9700062B81 /* NTMetaItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D5EB9517608F9700062B81 /* NTMetaItem.m */; };
+		B9D5EBA117618A3700062B81 /* PBXProject.h in Headers */ = {isa = PBXBuildFile; fileRef = B9D5EB9F17618A3700062B81 /* PBXProject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9D5EBA217618A3700062B81 /* PBXProject.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D5EBA017618A3700062B81 /* PBXProject.m */; };
+		B9D5EBA317618AD400062B81 /* PBXArchiver.h in Headers */ = {isa = PBXBuildFile; fileRef = B94B8E28175850B5007FB389 /* PBXArchiver.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,19 +106,22 @@
 		B94B8E23175850B5007FB389 /* PBXCoder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PBXCoder-Info.plist"; sourceTree = "<group>"; };
 		B94B8E25175850B5007FB389 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B94B8E27175850B5007FB389 /* PBXCoder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PBXCoder-Prefix.pch"; sourceTree = "<group>"; };
-		B94B8E28175850B5007FB389 /* PBXCoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBXCoder.h; sourceTree = "<group>"; };
-		B94B8E29175850B5007FB389 /* PBXCoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PBXCoder.m; sourceTree = "<group>"; };
-		B94B8E30175850B5007FB389 /* PBXCoderTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PBXCoderTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B94B8E28175850B5007FB389 /* PBXArchiver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBXArchiver.h; sourceTree = "<group>"; };
+		B94B8E29175850B5007FB389 /* PBXArchiver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PBXArchiver.m; sourceTree = "<group>"; };
+		B94B8E30175850B5007FB389 /* PBXCoderTests.xctest */ = {isa = PBXFileReference; explicitFileType = folder; includeInIndex = 0; path = PBXCoderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B94B8E31175850B5007FB389 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		B94B8E39175850B5007FB389 /* PBXCoderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PBXCoderTests-Info.plist"; sourceTree = "<group>"; };
 		B94B8E3B175850B5007FB389 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B94B8E3D175850B5007FB389 /* PBXCoderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBXCoderTests.h; sourceTree = "<group>"; };
-		B94B8E3E175850B5007FB389 /* PBXCoderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PBXCoderTests.m; sourceTree = "<group>"; };
+		B94B8E3D175850B5007FB389 /* PBXArchiverTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBXArchiverTests.h; sourceTree = "<group>"; };
+		B94B8E3E175850B5007FB389 /* PBXArchiverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PBXArchiverTests.m; sourceTree = "<group>"; };
 		B94B8E48175850E3007FB389 /* PBXParserTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBXParserTests.h; sourceTree = "<group>"; };
 		B94B8E49175850E3007FB389 /* PBXParserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBXParserTests.m; sourceTree = "<group>"; };
 		B94B8E4F175851E4007FB389 /* PBXParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBXParser.h; sourceTree = "<group>"; };
 		B94B8E50175851E4007FB389 /* PBXParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBXParser.m; sourceTree = "<group>"; };
 		B94B8E53175851FF007FB389 /* CoreParse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreParse.framework; path = ../../../CoreParse/build/Debug/CoreParse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B982A9A51764A7AF00082E25 /* PBXTargetDependency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBXTargetDependency.h; sourceTree = "<group>"; };
+		B982A9A61764A7AF00082E25 /* PBXTargetDependency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBXTargetDependency.m; sourceTree = "<group>"; };
+		B9B886DC176B117B00F3A769 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		B9D5EB88175F3AFD00062B81 /* NTGuidItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTGuidItem.h; sourceTree = "<group>"; };
 		B9D5EB89175F3AFD00062B81 /* NTGuidItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTGuidItem.m; sourceTree = "<group>"; };
 		B9D5EB8C1760792300062B81 /* NTSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTSection.h; sourceTree = "<group>"; };
@@ -122,6 +130,8 @@
 		B9D5EB9117608F1500062B81 /* NTGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTGroup.m; sourceTree = "<group>"; };
 		B9D5EB9417608F9700062B81 /* NTMetaItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTMetaItem.h; sourceTree = "<group>"; };
 		B9D5EB9517608F9700062B81 /* NTMetaItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTMetaItem.m; sourceTree = "<group>"; };
+		B9D5EB9F17618A3700062B81 /* PBXProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBXProject.h; sourceTree = "<group>"; };
+		B9D5EBA017618A3700062B81 /* PBXProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBXProject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,8 +148,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9B886DD176B117B00F3A769 /* XCTest.framework in Frameworks */,
 				B94B8E561758526B007FB389 /* CoreParse.framework in Frameworks */,
-				B94B8E32175850B5007FB389 /* SenTestingKit.framework in Frameworks */,
 				B94B8E33175850B5007FB389 /* Cocoa.framework in Frameworks */,
 				B94B8E36175850B5007FB389 /* PBXCoder.framework in Frameworks */,
 			);
@@ -200,7 +210,7 @@
 			isa = PBXGroup;
 			children = (
 				B94B8E18175850B5007FB389 /* PBXCoder.framework */,
-				B94B8E30175850B5007FB389 /* PBXCoderTests.octest */,
+				B94B8E30175850B5007FB389 /* PBXCoderTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -208,6 +218,7 @@
 		B94B8E1A175850B5007FB389 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B9B886DC176B117B00F3A769 /* XCTest.framework */,
 				B94B8E53175851FF007FB389 /* CoreParse.framework */,
 				B94B8E1B175850B5007FB389 /* Cocoa.framework */,
 				B94B8E31175850B5007FB389 /* SenTestingKit.framework */,
@@ -231,10 +242,11 @@
 			children = (
 				B94B8E4F175851E4007FB389 /* PBXParser.h */,
 				B94B8E50175851E4007FB389 /* PBXParser.m */,
-				B94B8E28175850B5007FB389 /* PBXCoder.h */,
-				B94B8E29175850B5007FB389 /* PBXCoder.m */,
+				B94B8E28175850B5007FB389 /* PBXArchiver.h */,
+				B94B8E29175850B5007FB389 /* PBXArchiver.m */,
 				B947C23A1758951F004F5EAC /* Tokenisation */,
 				B947C24A1758CA7D004F5EAC /* NonTerminals */,
+				B9D5EB9E17618A0100062B81 /* Models */,
 				B94B8E22175850B5007FB389 /* Supporting Files */,
 			);
 			path = PBXCoder;
@@ -253,8 +265,8 @@
 		B94B8E37175850B5007FB389 /* PBXCoderTests */ = {
 			isa = PBXGroup;
 			children = (
-				B94B8E3D175850B5007FB389 /* PBXCoderTests.h */,
-				B94B8E3E175850B5007FB389 /* PBXCoderTests.m */,
+				B94B8E3D175850B5007FB389 /* PBXArchiverTests.h */,
+				B94B8E3E175850B5007FB389 /* PBXArchiverTests.m */,
 				B94B8E48175850E3007FB389 /* PBXParserTests.h */,
 				B94B8E49175850E3007FB389 /* PBXParserTests.m */,
 				B947C2471758C694004F5EAC /* PBXTokeniserTests.h */,
@@ -273,6 +285,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B9D5EB9E17618A0100062B81 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B9D5EB9F17618A3700062B81 /* PBXProject.h */,
+				B9D5EBA017618A3700062B81 /* PBXProject.m */,
+				B982A9A51764A7AF00082E25 /* PBXTargetDependency.h */,
+				B982A9A61764A7AF00082E25 /* PBXTargetDependency.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -280,6 +303,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B982A9A71764A7AF00082E25 /* PBXTargetDependency.h in Headers */,
 				B9D5EB9217608F1500062B81 /* NTGroup.h in Headers */,
 				B9D5EB8E1760792300062B81 /* NTSection.h in Headers */,
 				B947C25D175CA685004F5EAC /* NTGuid.h in Headers */,
@@ -292,6 +316,8 @@
 				B9D5EB8A175F3AFD00062B81 /* NTGuidItem.h in Headers */,
 				B947C23817588BCE004F5EAC /* PBXGuidRecogniser.h in Headers */,
 				B94B8E51175851E4007FB389 /* PBXParser.h in Headers */,
+				B9D5EBA317618AD400062B81 /* PBXArchiver.h in Headers */,
+				B9D5EBA117618A3700062B81 /* PBXProject.h in Headers */,
 				B9D5EB9617608F9700062B81 /* NTMetaItem.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,8 +360,8 @@
 			);
 			name = PBXCoderTests;
 			productName = PBXCoderTests;
-			productReference = B94B8E30175850B5007FB389 /* PBXCoderTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productReference = B94B8E30175850B5007FB389 /* PBXCoderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -404,7 +430,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B94B8E2A175850B5007FB389 /* PBXCoder.m in Sources */,
+				B94B8E2A175850B5007FB389 /* PBXArchiver.m in Sources */,
 				B94B8E52175851E4007FB389 /* PBXParser.m in Sources */,
 				B947C23517588B71004F5EAC /* PBXGuidToken.m in Sources */,
 				B947C23917588BCE004F5EAC /* PBXGuidRecogniser.m in Sources */,
@@ -418,6 +444,8 @@
 				B9D5EB8F1760792300062B81 /* NTSection.m in Sources */,
 				B9D5EB9317608F1500062B81 /* NTGroup.m in Sources */,
 				B9D5EB9717608F9700062B81 /* NTMetaItem.m in Sources */,
+				B9D5EBA217618A3700062B81 /* PBXProject.m in Sources */,
+				B982A9A81764A7AF00082E25 /* PBXTargetDependency.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,7 +453,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B94B8E3F175850B5007FB389 /* PBXCoderTests.m in Sources */,
+				B94B8E3F175850B5007FB389 /* PBXArchiverTests.m in Sources */,
 				B94B8E4A175850E3007FB389 /* PBXParserTests.m in Sources */,
 				B947C2491758C694004F5EAC /* PBXTokeniserTests.m in Sources */,
 			);
@@ -559,15 +587,14 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-					"\"$(SRCROOT)/../CoreParse/build/Debug\"",
+					"$(SRCROOT)/../CoreParse/build/Debug",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PBXCoder/PBXCoder-Prefix.pch";
 				INFOPLIST_FILE = "PBXCoderTests/PBXCoderTests-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
@@ -576,15 +603,14 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-					"\"$(SRCROOT)/../CoreParse/build/Debug\"",
+					"$(SRCROOT)/../CoreParse/build/Debug",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PBXCoder/PBXCoder-Prefix.pch";
 				INFOPLIST_FILE = "PBXCoderTests/PBXCoderTests-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
